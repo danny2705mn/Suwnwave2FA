@@ -7,7 +7,7 @@ export default function handler(req, res) {
   const parsedUrl = url.parse(otpauthUrl);
   const queryParams = querystring.parse(parsedUrl.query);
 
-  const secret = 'VU52G3USPHZQODCL';
+  const secret = 'TSLKVDYN2R4GEU2B';
 
   const token = speakeasy.totp({
     secret: secret,
